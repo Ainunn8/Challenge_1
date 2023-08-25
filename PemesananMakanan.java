@@ -92,6 +92,7 @@ public class PemesananMakanan {
         System.out.print("Masukkan jumlah uang Anda: Rp ");
         double jumlahUang = scanner.nextDouble();
 
+        // Menghitung total harga
         if (jumlahUang < totalHarga) {
             System.out.println("Maaf, uang Anda tidak cukup.");
         } else {
